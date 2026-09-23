@@ -7,14 +7,19 @@
     }
 }
 
+static double PromedioNotas(int[] notasx)
+{
+    int suma = 0;
+    for(int i = 0; i < notasx.Length; i++) 
+    {
+        suma += notasx[i];
+    }
+    return (double)suma / notasx.Length;
+}
+
 int[] notas = {15,18,12,17,20};
 
 ImprimirNotas(notas);
 
-int suma = 0;
-for(int i = 0; i < notas.Length; i++) 
-{
-    suma += notas[i];
-}
-
-Console.WriteLine($"Promedio de las notas: {(double)suma / notas.Length:F2}");
+double Promedio = PromedioNotas(notas);
+Console.WriteLine($"Promedio de las notas: {Promedio:F2}");
