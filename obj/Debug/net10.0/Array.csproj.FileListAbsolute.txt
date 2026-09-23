@@ -12,3 +12,4 @@ C:\Users\Docente\Desktop\programacion web\Array\obj\Debug\net10.0\refint\Array.d
 C:\Users\Docente\Desktop\programacion web\Array\obj\Debug\net10.0\Array.pdb
 C:\Users\Docente\Desktop\programacion web\Array\obj\Debug\net10.0\Array.genruntimeconfig.cache
 C:\Users\Docente\Desktop\programacion web\Array\obj\Debug\net10.0\ref\Array.dll
+C:\Users\Docente\Desktop\programacion web\Array\obj\Debug\net10.0\Array.sourcelink.json
